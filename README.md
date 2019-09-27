@@ -1,5 +1,4 @@
-f24.lm
-## Function for rhythmicity test for circadian data
+## f24 a collection of functions for rhythmicity test for circadian data
 
 ### Installation
 ```{r}
