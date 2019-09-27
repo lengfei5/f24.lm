@@ -1,0 +1,11 @@
+Package: f24.lm
+Type: Package
+Title: Rhythmicity teset for 24h period 
+Version: 1.0
+Author: Jingkui Wang
+Maintainer: Jingkui Wang <lengfei5@gmail.com>
+Description: a linear regerssion based function to test 24h rythmicity 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
