@@ -165,8 +165,6 @@ f24_R2_alt=function(x, t=2*(0:(length(x)-1)), period=24, offset=0)
 #'
 #' @export
 #' @import stats
-
-
 f24_R2_ls=function(x, t=2*(0:(length(x)-1)), period=24, offset=0)
 {
 	kk = which(!is.na(x)==TRUE)
@@ -293,6 +291,17 @@ f24_ratio=function(x, t=2*(0:(length(x)-1)), period=24, offset=0)
 #######################################################################
 ####################################################################### some homemade statistic tests
 #######################################################################
+#' function to compute q value
+#'
+#' This function implement the Benjamin-Hochberg (BH) method for q value calculation
+#'
+#' @param pv a vector of p values
+#' @return A vector of q values
+#' @author Laura Symul
+#' @details
+#' the function can deal with missing time points
+#'
+#' @export
 qvals=function(pv)
 {
   PV=pv
