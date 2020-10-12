@@ -2,7 +2,9 @@
 
 ### Installation
 ```{r}
-install.packages("devtools")
+if(!is.element('devtools', installed.packages())) {
+  install.packages("devtools")
+}
 library(devtools)
 install_github('lengfei5/f24.lm')
 ```
